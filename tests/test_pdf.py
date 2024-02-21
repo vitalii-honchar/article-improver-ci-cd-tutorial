@@ -7,7 +7,7 @@ import fitz
 def test_return_text_if_file_reading_was_successful():
     # GIVEN
     filename = "tests/test.pdf"
-    expected = "Test content"
+    expected = "Test content2"
 
     # WHEN
     actual = pdf.read_pdf(filename)
