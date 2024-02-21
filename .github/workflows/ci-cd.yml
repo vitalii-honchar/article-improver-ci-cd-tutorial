@@ -4,10 +4,10 @@ run-name: Test and build article-improver 🚀
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   test-and-build:
