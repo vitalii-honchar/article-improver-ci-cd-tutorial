@@ -31,7 +31,7 @@ def seo_command(filename: str):
     async def cmd():
         await seo.handle(chat_gpt, filename)
 
-    execute_chat_gpt_command("Generating seo recommendations...", cmd)
+    execute_chat_gpt_command("Generating seo recommendations!", cmd)
 
 
 @app.command(name="configure")
