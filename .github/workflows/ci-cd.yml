@@ -65,8 +65,6 @@ jobs:
         echo "" >> ${{ github.workspace }}-CHANGELOG.txt
         echo "- Follow me on [Medium](https://vitalii-honchar.medium.com/) 🔥" >> ${{ github.workspace }}-CHANGELOG.txt
         echo "- Connect with me on [LinkedIn](https://www.linkedin.com/in/vitaliihonchar/) 😎" >> ${{ github.workspace }}-CHANGELOG.txt
-    - name: Display structure of downloaded files
-      run: ls -R article-improver-dist
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
