@@ -15,7 +15,7 @@ if cfg is not None:
 def execute_chat_gpt_command(description, fn):
     if cfg is None:
         configure_command()
-        print("Run command again")
+        print("Run command again.")
     else:
         with Progress(
             SpinnerColumn(),
