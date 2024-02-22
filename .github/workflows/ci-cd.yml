@@ -71,4 +71,4 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         body_path: ${{ github.workspace }}-CHANGELOG.txt
-        files: article-improver-dist.zip
+        files: article-improver-dist/*
